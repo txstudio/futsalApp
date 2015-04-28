@@ -1,0 +1,72 @@
+﻿body {
+	background: #ddd;
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	
+	margin: 0;
+	padding: 0;
+}
+
+#referer {
+	position: absolute;
+	top:95px;
+	left:5px;
+}
+
+#home-change-site {
+	position: absolute;
+	
+	top:80px;
+	left:560px;
+}
+
+#away-change-site {
+	position: absolute;
+	
+	top:250px;
+	left:560px;
+}
+
+.member {
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	line-height: 1.5;
+	
+	width: 35px;
+	height: 35px;
+	font-size: 23px;
+	
+	cursor: pointer;
+	
+	position: absolute;
+}
+.home {
+	background: #CC0000;
+}
+.home-keeper {
+	background: #339933;
+}
+
+.away {
+	background: #000099;
+}
+.away-keeper {
+	background: #660066
+}
+
+.referer {
+	background: #ffff66;
+	color: #000;
+	border-color: #000;
+}
+.ball {
+	background: #fff;
+	color: #000;
+	border-color: #000;
+	
+	position: absolute;
+	left: 500px;
+	top: 450px;
+}
